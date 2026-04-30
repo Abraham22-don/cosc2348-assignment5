@@ -16,5 +16,5 @@ multiplication.o: multiplication.c operations.h
 division.o: division.c operations.h
 	gcc -c division.c
 
-clean:
-	rm -f *.o calculator
+#clean:
+#	rm -f *.o calculator
